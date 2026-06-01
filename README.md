@@ -264,9 +264,6 @@ For production use:
 - [MySQL Connector Documentation](https://dev.mysql.com/doc/connector-python/en/)
 - [Matplotlib Documentation](https://matplotlib.org/)
 
-## 📄 License
-
-MIT License - feel free to use and modify
 
 ## 💬 Support
 
