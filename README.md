@@ -1,21 +1,21 @@
-# 🚀 Data Pipeline
+#  Data Pipeline
 
 A production-ready data pipeline that ingests CSV files, cleans the data, loads it into MySQL, and generates visualizations with matplotlib.
 
-## 📋 Pipeline Flow
+##  Pipeline Flow
 
 ```
 CSV Files → Data Ingest → Data Cleaning → MySQL Load → Visualizations
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3.8+**
 - **Pandas** - Data manipulation and analysis
 - **MySQL** - Relational database
 - **Matplotlib** - Data visualization
 
-## 📦 Installation
+##  Installation
 
 ### 1. Clone or setup project
 ```bash
@@ -74,7 +74,7 @@ data-pipeline/
 └── logs/                  # Pipeline logs (optional)
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Prepare your CSV data
 Place your CSV files in `data/raw/` directory:
@@ -191,7 +191,7 @@ cat .env
 python -c "import pandas as pd; print(pd.read_csv('data/raw/your_file.csv').columns)"
 ```
 
-## 🎨 Customization
+##  Customization
 
 ### Add custom cleaning logic
 Edit `clean.py` and add methods to `DataCleaner` class:
@@ -248,7 +248,7 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-## 🚀 Production Deployment
+##  Production Deployment
 
 For production use:
 1. Use connection pooling in `load.py`
