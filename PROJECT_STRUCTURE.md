@@ -1,6 +1,6 @@
 # Data Pipeline - Project Structure
-
-## 📂 Complete File Organization
+#HERE IS BASIALY A DETAIL
+##  Complete File Organization
 
 ```
 data-pipeline/
