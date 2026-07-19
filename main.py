@@ -1,8 +1,7 @@
-#!/usr/bin/env python3
-"""
-Data Pipeline: CSV → Clean → MySQL → Visualize
-Main orchestrator script
-"""
+
+#Data Pipeline: CSV → Clean → MySQL → Visualize
+#Main orchestrator script
+
 
 from ingest import DataIngestor
 from clean import DataCleaner
