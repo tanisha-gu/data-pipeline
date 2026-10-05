@@ -8,7 +8,7 @@ class DataIngestor:
     def __init__(self, data_dir: str = "data/raw"):
         self.data_dir = Path(data_dir)
         self.data_dir.mkdir(parents=True, exist_ok=True)
-    
+    #csv
     def ingest_csv(self, filename: str) -> pd.DataFrame:
         """
         Read a single CSV file
@@ -31,7 +31,7 @@ class DataIngestor:
         except Exception as e:
             print(f"✗ Error reading {filename}: {str(e)}")
             raise
-    
+    #all typ of csv
     def ingest_all_csv(self) -> pd.DataFrame:
         """
         Read all CSV files from directory and combine them
@@ -59,3 +59,4 @@ class DataIngestor:
         combined_df = pd.concat(dfs, ignore_index=True)
         print(f"\n✓ Combined: {len(combined_df)} total rows")
         return combined_df
+#done
