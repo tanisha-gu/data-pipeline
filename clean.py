@@ -1,6 +1,8 @@
+#imports
 import pandas as pd
 import numpy as np
 
+#code in calss formate 
 class DataCleaner:
     """Handles data cleaning and transformation"""
     
